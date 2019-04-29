@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=CsvRow
+comment0.text=\n\ This\ class\ represents\ a\ single\ CSV\ row.\n\n\ @author\ Oliver\ Siegmar\n
+comment1.params=originalLineNumber\ headerMap\ fields
+comment1.target=CsvRow(long,\ java.util.Map,\ java.util.List)
+comment2.params=
+comment2.target=long\ getOriginalLineNumber()
+comment2.text=\n\ Returns\ the\ original\ line\ number\ (starting\ with\ 1).\ On\ multi-line\ rows\ this\ is\ the\ starting\n\ line\ number.\ Empty\ lines\ could\ be\ skipped\ via\ {@link\ CsvReader\#setSkipEmptyRows(boolean)}.\n\n\ @return\ the\ original\ line\ number\n
+comment3.params=index
+comment3.target=java.lang.String\ getField(int)
+comment3.text=\n\ Gets\ a\ field\ value\ by\ its\ index\ (starting\ with\ 0).\n\n\ @param\ index\ index\ of\ the\ field\ to\ return\n\ @return\ field\ value\n\ @throws\ IndexOutOfBoundsException\ if\ index\ is\ out\ of\ range\n
+comment4.params=name
+comment4.target=java.lang.String\ getField(java.lang.String)
+comment4.text=\n\ Gets\ a\ field\ value\ by\ its\ name.\n\n\ @param\ name\ field\ name\n\ @return\ field\ value,\ {@code\ null}\ if\ this\ row\ has\ no\ such\ field\n\ @throws\ IllegalStateException\ if\ CSV\ is\ read\ without\ headers\ -\n\ see\ {@link\ CsvReader\#containsHeader}\n
+comment5.params=
+comment5.target=java.util.List\ getFields()
+comment5.text=\n\ Gets\ all\ fields\ of\ this\ row\ as\ an\ unmodifiable\ List.\n\n\ @return\ all\ fields\ of\ this\ row\n
+comment6.params=
+comment6.target=java.util.Map\ getFieldMap()
+comment6.text=\n\ Gets\ an\ unmodifiable\ map\ of\ header\ names\ and\ field\ values\ of\ this\ row.\n\n\ The\ map\ will\ always\ contain\ all\ header\ names\ -\ even\ if\ their\ value\ is\ {@code\ null}.\n\n\ @return\ an\ unmodifiable\ map\ of\ header\ names\ and\ field\ values\ of\ this\ row\n\ @throws\ IllegalStateException\ if\ CSV\ is\ read\ without\ headers\ -\ see\n\ {@link\ CsvReader\#containsHeader}\n
+comment7.params=
+comment7.target=int\ getFieldCount()
+comment7.text=\n\ Gets\ the\ number\ of\ fields\ of\ this\ row.\n\n\ @return\ the\ number\ of\ fields\ of\ this\ row\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

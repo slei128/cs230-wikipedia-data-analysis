@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Row
+comment1.params=name\ state\ year\ population\ renterOccupiedHouseholds\ percRenterOccupiedHouseholds\ povertyRate\ percWhite\ percAfricanAmerican\ percHispanic\ percNativeAmerican\ percAsian\ percNHPI\ percMultiple\ percOther\ evictionNumber\ evictionRate\ evictionFilingNumber\ evictionFilingRate
+comment1.target=Row(java.lang.String,\ java.lang.String,\ int,\ double,\ double,\ double,\ double,\ double,\ double,\ double,\ double,\ double,\ double,\ double,\ double,\ double,\ double,\ double,\ double)
+comment1.text=\n\ Constructor\ for\ Row\ class.\ \n\ Each\ Row\ represents\ data\ on\ the\ city-year\ level.\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ Getter\ method\ for\ name\ variable.\n\ @return\ name\ data\ for\ this\ Row\ instance.\n
+comment3.params=
+comment3.target=java.lang.String\ getState()
+comment3.text=\n\ Getter\ method\ for\ state\ variable.\n\ @return\ state\ data\ for\ this\ Row\ instance.\n
+comment4.params=
+comment4.target=int\ getYear()
+comment4.text=\n\ Getter\ method\ for\ year\ variable.\n\ @return\ year\ data\ for\ this\ Row\ instance.\n
+comment5.params=variableName
+comment5.target=double\ getDataValue(java.lang.String)
+comment5.text=\n\ Getter\ method\ for\ all\ numerical\ values\ associated\ with\ this\ row.\n\ @return\ numerical\ value\ associated\ with\ this\ row.\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ Returns\ a\ String\ representing\ all\ the\ data\ in\ this\ Row\ instance.\n\ \ \ \ \ @return\ a\ String\ representation\ of\ this\ Row.\n
+numComments=7

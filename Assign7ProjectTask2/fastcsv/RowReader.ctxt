@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=RowReader
+comment1.params=reader\ fieldSeparator\ textDelimiter
+comment1.target=RowReader(java.io.Reader,\ char,\ char)
+comment2.params=
+comment2.target=RowReader.Line\ readLine()
+comment2.text=\n\ ugly,\ performance\ optimized\ code\ begins\n
+comment3.params=
+comment3.target=void\ close()
+comment4.params=
+comment4.target=boolean\ isFinished()
+numComments=5

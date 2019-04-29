@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=CsvContainer
+comment0.text=\n\ Class\ for\ holding\ a\ complete\ CSV\ file.\n\n\ @author\ Oliver\ Siegmar\n
+comment1.params=header\ rows
+comment1.target=CsvContainer(java.util.List,\ java.util.List)
+comment2.params=
+comment2.target=int\ getRowCount()
+comment2.text=\n\ Returns\ the\ number\ of\ rows\ in\ this\ container.\n\n\ @return\ the\ number\ of\ rows\ in\ this\ container\n
+comment3.params=
+comment3.target=java.util.List\ getHeader()
+comment3.text=\n\ Returns\ the\ header\ row\ -\ might\ be\ {@code\ null}\ if\ no\ header\ exists.\n\ The\ returned\ list\ is\ unmodifiable.\n\n\ @return\ the\ header\ row\ -\ might\ be\ {@code\ null}\ if\ no\ header\ exists\n
+comment4.params=index
+comment4.target=CsvRow\ getRow(int)
+comment4.text=\n\ Returns\ a\ CsvRow\ by\ its\ index\ (starting\ with\ 0).\n\n\ @param\ index\ index\ of\ the\ row\ to\ return\n\ @return\ the\ row\ by\ its\ index\n\ @throws\ IndexOutOfBoundsException\ if\ index\ is\ out\ of\ range\n
+comment5.params=
+comment5.target=java.util.List\ getRows()
+comment5.text=\n\ Returns\ an\ unmodifiable\ list\ of\ rows.\n\n\ @return\ an\ unmodifiable\ list\ of\ rows\n
+numComments=6

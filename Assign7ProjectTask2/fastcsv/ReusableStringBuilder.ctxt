@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=ReusableStringBuilder
+comment0.text=\n\ Resettable\ /\ reusable\ and\ thus\ high\ performance\ replacement\ for\ StringBuilder.\n\n\ This\ class\ is\ intended\ for\ internal\ use\ only.\n\n\ @author\ Oliver\ Siegmar\n
+comment1.params=initialCapacity
+comment1.target=ReusableStringBuilder(int)
+comment1.text=\n\ Initializes\ the\ buffer\ with\ the\ specified\ capacity.\n\n\ @param\ initialCapacity\ the\ initial\ buffer\ capacity.\n
+comment2.params=c
+comment2.target=void\ append(char)
+comment2.text=\n\ Appends\ a\ character\ to\ the\ buffer,\ resizing\ the\ buffer\ if\ needed.\n\n\ @param\ c\ the\ character\ to\ add\ to\ the\ buffer\n
+comment3.params=src\ srcPos\ length
+comment3.target=void\ append(char[],\ int,\ int)
+comment4.params=
+comment4.target=boolean\ hasContent()
+comment4.text=\n\ @return\ {@code\ true}\ if\ the\ buffer\ contains\ content\n
+comment5.params=
+comment5.target=java.lang.String\ toStringAndReset()
+comment5.text=\n\ Returns\ the\ string\ representation\ of\ the\ buffer\ and\ resets\ the\ buffer.\n\n\ @return\ the\ string\ representation\ of\ the\ buffer\n
+numComments=6

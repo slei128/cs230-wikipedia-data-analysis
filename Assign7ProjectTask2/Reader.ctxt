@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Reader
+comment0.text=\n\ A\ utility\ class\ for\ reading\ in\ \n
+comment1.params=nodesFilepath\ edgesFilepath
+comment1.target=Reader(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ Reader\ class.\ Given\ a\ path\ to\ the\ files\ where\ wikipedia\ \n\ edges\ and\ nodes\ are\ being\ stored\ on\ your\ local\ machine,\ will\ initialize\ \n\ a\ graph\ containing\ the\ Persons\ in\ the\ wikipedia\ dataset.\n\n\ @param\ nodesFilepath\ -\ A\ filepath\ representing\ the\ file\ where\ the\ wikipedia\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ nodes\ are\ being\ kept.\ (e.g.\ pantheon.csv)\n\ @param\ edgesFilepath\ -\ A\ filepath\ representing\ the\ file\ where\ the\ wikipedia\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ edges\ are\ being\ kepy\ (e.g.\ pantheon_edges.csv)\n
+comment2.params=filepath
+comment2.target=fastcsv.CsvParser\ getParser(java.lang.String)
+comment2.text=\n\ Given\ a\ filepath,\ will\ return\ a\ CsvParser\ that\ can\ be\ used\ to\ iterate\ \n\ over\ the\ rows\ of\ the\ dataset.\ Assumes\ that\ the\ file\ contains\ a\ header,\n\ and\ that\ the\ data\ are\ in\ UTF_8\ format.\n\n\ @throws\ IOException\n\ @param\ filepath\ -\ the\ filepath\ to\ this\ file.\n\ @return\ the\ parser\ over\ this\ file.\n
+comment3.params=
+comment3.target=AdjListsGraph\ getGraph()
+comment3.text=\n\ Returns\ a\ version\ of\ the\ graph\ that\ this\ Reader\ class\ compiles.\n\ @return\ the\ graph\ that\ this\ Reader\ has\ compiled.\n
+comment4.params=
+comment4.target=java.util.Map\ getNameMap()
+comment4.text=\n\ Returns\ a\ mapping\ between\ names\ and\ Person\ objects\ for\ all\ Persons\n\ parsed\ by\ this\ Reader.\ Note\ that\ names\ are\ unique\ in\ this\ dataset.\n\ @return\ a\ Map\ between\ each\ name\ in\ the\ dataset\ and\ the\ Person\ that\ name\n\ \ \ \ \ \ \ \ \ corresponds\ to.\n
+numComments=5

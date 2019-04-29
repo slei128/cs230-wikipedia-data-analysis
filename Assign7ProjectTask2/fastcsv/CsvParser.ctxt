@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CsvParser
+comment0.text=\n\ This\ class\ is\ responsible\ for\ parsing\ CSV\ data\ from\ the\ passed-in\ Reader.\n\n\ @author\ Oliver\ Siegmar\n
+comment1.params=reader\ fieldSeparator\ textDelimiter\ containsHeader\ skipEmptyRows\ errorOnDifferentFieldCount
+comment1.target=CsvParser(java.io.Reader,\ char,\ char,\ boolean,\ boolean,\ boolean)
+comment2.params=
+comment2.target=java.util.List\ getHeader()
+comment2.text=\n\ Returns\ the\ header\ fields\ -\ {@code\ null}\ if\ no\ header\ exists.\ The\ returned\ list\ is\n\ unmodifiable.\ Use\ {@link\ CsvReader\#setContainsHeader(boolean)}\ to\ enable\ header\ parsing.\n\ Also\ note,\ that\ the\ header\ is\ only\ available\ <strong>after</strong>\ first\ invocation\ of\n\ {@link\ \#nextRow()}.\n\n\ @return\ the\ header\ fields\n\ @throws\ IllegalStateException\ if\ header\ parsing\ is\ not\ enabled\ or\ {@link\ \#nextRow()}\ wasn't\n\ called\ before.\n
+comment3.params=
+comment3.target=CsvRow\ nextRow()
+comment3.text=\n\ Reads\ a\ complete\ {@link\ CsvRow}\ that\ might\ be\ made\ up\ of\ multiple\ lines\ in\ the\ underlying\n\ CSV\ file.\n\n\ @return\ a\ CsvRow\ or\ {@code\ null}\ if\ end\ of\ file\ reached\n\ @throws\ IOException\ if\ an\ error\ occurred\ while\ reading\ data\n
+comment4.params=currentFields
+comment4.target=void\ initHeader(java.util.List)
+comment5.params=
+comment5.target=void\ close()
+numComments=6
